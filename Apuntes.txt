@@ -19,3 +19,12 @@ git config --global init.branchDefault main
 
 y asi evitamos tener que estarlo haciendo por proyecto.
 
+AGREGAR LOS ARCHIVOS DEL PROYECTO PARA SUBIRLOS (AREGARLOS AL STAGE)
+git add .
+
+CONOCER EL STATUS DEL PROYECTO
+git status
+
+HACER EL COMMIT DEL PROYECTO
+git commit -m "mi primer commit"
+
