@@ -22,9 +22,11 @@ y asi evitamos tener que estarlo haciendo por proyecto.
 AGREGAR LOS ARCHIVOS DEL PROYECTO PARA SUBIRLOS (AREGARLOS AL STAGE)
 git add .
 
-CONOCER EL STATUS DEL PROYECTO
+CONOCER EL STATUS DEL PROYECTO (LISTA ARCHIVOS CON MODIFICACIONES/NUEVOS A incluir en el proximo commit)
 git status
 
 HACER EL COMMIT DEL PROYECTO
 git commit -m "mi primer commit"
 
+FORZAR INCLUIR UN FOLDER VACIO
+incluir dentro un archivo vacio de nombre .gitkeep
