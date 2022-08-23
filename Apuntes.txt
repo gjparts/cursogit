@@ -1,0 +1,21 @@
+EDITAR LA CONFIG DE GIT DESDE EL EDITOR DE TEXTO
+git --config -e
+
+CREAR PROYECTO DE GIT
+ingresar al folder que desea, y correr el comando
+git init
+
+si observa en VSCode marca los archivos como U son archivos que no se le ha hecho seguimiento en git
+
+EN LA BARRA DE ESTADO: abajo sale la rama master (tambien llamado main)
+
+CAMBIAR EL NOMBRE A NUESTRA RAMA PRINCIPAL
+git branch -m master main
+
+observar como cambia el nombre de la rama en la barra de estado de VSCode
+
+CAMBIAR A NIVEL DE CONFIGURACION GLOBAL PARA FUTUROS PROYECTOS QUE EN LUGAR DE LLAMAR master A LA RAMA PRINCIPAL las llame main
+git config --global init.branchDefault main
+
+y asi evitamos tener que estarlo haciendo por proyecto.
+
